@@ -2,9 +2,9 @@
 
 #### when user click on one button which is in one component and modal which is in another comonent show pop up so how can we do?
 
-| component 1 modal should open // here we have variable isOpen = false
-| component 2
-| component 3 user click here isOpen should change to true so poppup can open
+| component 1 modal should open // here we have variable isOpen = false <br />
+| component 2 <br />
+| component 3 user click here isOpen should change to true so poppup can open <br />
 
 - we can pass props from parent to child and when click we do callback from child to parent and hadle this thing.but if application is larger and there are lots of small components nested so how we can manage think about that :thinking:
 
