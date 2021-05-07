@@ -27,7 +27,8 @@ const store = createStore(rootReducer);
 
 export default store; ```
 
-As you can see, store is nothing but result of calling createStore function from the Redux library.CreateStore takes a reducer as the first argument and in our case we passed in rootReducer.
+As you can see, store is nothing but result of calling createStore function from the Redux library.
+CreateStore takes a reducer as the first argument and in our case we passed in rootReducer.
 
 - create rootReducer file.
   ``` const initialState = {
