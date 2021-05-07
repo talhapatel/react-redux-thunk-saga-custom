@@ -8,7 +8,7 @@
 
 - we can pass props from parent to child and when click we do callback from child to parent and hadle this thing.but if application is larger and there are lots of small components nested so how we can manage think about that :thinking:
 
--thats why we need something which handle state to track and when its change we can handle our UI acording that.
+thats why we need something which handle state to track and when its change we can handle our UI acording that.
 
 - here we are using redux to manage our state.
   -redux has terminology you have seen : action,reducer,middleware but most confusing part at initial is how this all connect and communicate?
