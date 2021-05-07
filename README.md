@@ -18,18 +18,19 @@ thats why we need something which handle state to track and when its change we c
 - Create directory for store: and create file index.js
 
 // src/js/store/index.js
-`
+
+````
 import { createStore } from "redux";
 import rootReducer from "../reducers/index";
 
 const store = createStore(rootReducer);
 
-export default store; `
+export default store; ```
 
 As you can see, store is nothing but result of calling createStore function from the Redux library.CreateStore takes a reducer as the first argument and in our case we passed in rootReducer.
 
 - create rootReducer file.
-  ` const initialState = {
+  ``` const initialState = {
   articles: []
   };
 
@@ -37,4 +38,5 @@ function rootReducer(state = initialState, action) {
 return state;
 };
 
-export default rootReducer; `
+export default rootReducer; ```
+````
